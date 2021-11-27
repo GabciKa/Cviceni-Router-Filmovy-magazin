@@ -1,6 +1,5 @@
 import React from 'react';
 import {Link, useParams} from 'react-router-dom';
-
 import movies from './../../movies.js';
 
 const Movie = () => {
@@ -13,7 +12,6 @@ const Movie = () => {
 			<img src={`/assets/${movie.poster}`} alt={movie.title} />
 			<h2>{movie.title}</h2>
 			<p>{movie.storyline}</p>
-			<p><Link to="/">Zpět na seznam filmů</Link></p>
 		</div>
 	)
 }

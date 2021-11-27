@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-
 import movies from './../../movies.js';
+import "./style.css";
 
 const MovieList = () => {
 	return (

@@ -1,0 +1,12 @@
+.movie-list ul {
+    list-style-type: none;
+    padding-left: 1rem; 
+}
+
+.movie-list li {
+    padding-bottom: 1rem;
+}
+
+.movie-list li a {
+    text-decoration: none;
+}

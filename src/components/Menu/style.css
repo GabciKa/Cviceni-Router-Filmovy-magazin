@@ -1,0 +1,19 @@
+.menu {
+    display: flex;
+    background-color: rgb(55, 120, 216);
+}
+
+.menu a {
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    padding: 1.2rem;
+}
+
+.menu a:hover {
+    background-color: rgb(142, 142, 232);
+}
+
+.menu .aktivni {
+    background-color: blue;
+}

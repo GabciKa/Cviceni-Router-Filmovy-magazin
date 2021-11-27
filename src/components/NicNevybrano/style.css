@@ -1,0 +1,8 @@
+.nicNevybrano {
+    display: flex;
+    align-items: center;
+}
+
+.nicNevybrano p {
+    line-height: 3;
+}
